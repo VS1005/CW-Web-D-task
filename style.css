@@ -394,11 +394,12 @@ main {
   }
 
   .scrollable-content {
-    width: 400px;
-    height: 1000px; /* Adjust the height as needed */
+    width: 410px;
+    height: 1000px;
     overflow-y: auto;
+    overflow-x: hidden;
     padding: 10px;
-    border: 1px solid #ddd; /* Optional: for visual indication of the scrollable area */
+    border: 1px solid #ddd;
   }
 
 
