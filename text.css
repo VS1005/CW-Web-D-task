@@ -140,7 +140,23 @@
     bottom: 65px;
     left: 25px;
   }
-  
+  .date{
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    left: 25px;
+}
+.date1{
+    font-size: x-small;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 3px;
+    left: 25px;
+}
+
   .type {
     padding: 5px 10px;
     color: white;
