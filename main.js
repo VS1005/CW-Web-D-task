@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
     try {
       const response = await fetch(API_URL);
       const blogs = await response.json();
-      renderBlogs(blogs);
+      const remainingblogs=blogs.slice(4,10);
+      renderBlogs(remainingblogs);
     } catch (error) {
       console.error('Error fetching blogs:', error);
     }
