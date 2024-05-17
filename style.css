@@ -394,7 +394,8 @@ main {
   }
 
   .scrollable-content {
-    width: 400px;
+    width: 410px;
+    left:0px;
     height: 1000px;
     overflow-y: auto;
     overflow-x: hidden;
